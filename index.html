@@ -3,33 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aggregate Calculator</title>
+    <title>IMSciences Aggregate Calculator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="main-container">
         <div class="about-me">
-    <h2>About Me</h2>
-    <p>
-        I am Najeeb Ullah Afridi, a 5th-semester BS Data Science student at IMSciences Peshawar. 
-        I developed this tool to help newcomers calculate their aggregate before the official results are released.
-    </p>
-    <p>
-        We also have a WhatsApp group dedicated to answering queries about the admission process, scholarships, 
-        and academic support in the field. You can join our WhatsApp group using the link below.
-    </p>
-    <p>
-        You can also contact me at: 
-        <a href="mailto:najeebafridi.ims@gmail.com">najeebafridi.ims@gmail.com</a>
-    </p>
-    <p>
-        Follow me on 
-        <a href="https://www.linkedin.com/in/najeeb-ullah-afridi/" target="_blank">LinkedIn</a>.
-    </p>
-    <p>
-        <a href="https://chat.whatsapp.com/F8M3RAXhD1DAGfdZfUivPn" target="_blank">Join our WhatsApp group</a>
-    </p>
-</div>
+            <h2>About This Tool</h2>
+            <p>
+                This unofficial calculator was created by Najeeb Ullah to help prospective IMSciences students
+                estimate their admission aggregate before official merit results are announced.
+            </p>
+            <p>
+                Admission formulas may change over time, so always verify the latest criteria through official
+                IMSciences admissions information before relying on an estimate.
+            </p>
+            <p>
+                Questions or feedback:
+                <a href="mailto:najeebafridi.ims@gmail.com">najeebafridi.ims@gmail.com</a>
+            </p>
+            <p>
+                <a href="https://github.com/najeebafridi" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+            </p>
+        </div>
 
         <div class="container">
             <h1>Aggregate Calculator</h1>
@@ -43,8 +39,8 @@
                     <input type="number" id="interview-marks" name="interview-marks" required min="0" max="10">
                 </div>
                 <div>
-                    <label for="fsc-marks">first year marks (out of 600):</label>
-                    <input type="number" id="fsc-marks" name="fsc-marks" required min="0" max="1200">
+                    <label for="fsc-marks">First-Year / FSc Marks (out of 600):</label>
+                    <input type="number" id="fsc-marks" name="fsc-marks" required min="0" max="600">
                 </div>
                 <button type="button" onclick="calculateAggregate()">Calculate Aggregate</button>
             </form>
